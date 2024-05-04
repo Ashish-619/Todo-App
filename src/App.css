@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Added to center vertically */
+  height: 100vh; /* Added to occupy full viewport height */
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  width: 40vw;
+  max-height: 70vh; /* Changed to max-height to allow expansion */
+  color: black;
+  border-radius: 5%;
+  box-shadow: 10px 10px 10px 2px rgba(14, 136, 212, 0.9),
+    -10px -10px 10px 2px rgba(234, 111, 50, 0.9);
+  padding: 10px;
+  overflow: auto; /* Added to enable scrolling if content overflows */
+}
+
+input {
+  margin-bottom: 10%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#addButton {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+#addButton:hover {
+  background-color: rgb(14, 136, 212);
+  color: white;
+}
+
+.listItem {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: inherit;
+}
+
+#removeButton {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: small;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+#removeButton:hover {
+  background-color: rgb(255, 111, 50);
+  color: white;
+}
+
+#editButton {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: small;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+#editButton:hover {
+  background-color: rgb(113, 246, 98);
+  color: white;
+}
